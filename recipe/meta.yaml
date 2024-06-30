@@ -1,5 +1,5 @@
 {% set name = "flask_simplelogin" %}
-{% set version = "0.0.7" %}
+{% set version = "0.1.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flask_simplelogin-{{ version }}.tar.gz
-  sha256: 338d6d54cc00a7df043979e3a362a05fef427855a57ad609707ef8b4eec91b9d
+  sha256: e16d198b3b7cb09c7700047aaebe36687845f8201167817f0c468d8fea5e588c
 
 build:
   number: 0
